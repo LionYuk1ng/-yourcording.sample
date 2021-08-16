@@ -508,6 +508,7 @@ img{
 }
 
 
+
 /* //section contact */
 
 
@@ -609,6 +610,10 @@ textarea{
   display: none;
   text-align: center;
   font-size: 2.8rem;
+}
+
+.end-message span{
+  display: inline-block;
 }
 
 .submit{
