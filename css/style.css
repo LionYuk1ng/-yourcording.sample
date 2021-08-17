@@ -3,6 +3,7 @@
 html ,label{
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 62.5%;
+  color: #333333;
 }
 
 a{
@@ -362,8 +363,9 @@ img{
 .blog-box{
   width: 33.3333%;
   background-color: #FFFFFF;
-  border: 1px solid #707070;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16);
   margin-right: 30px;
+  cursor: pointer;
 }
 
 .blog-img img{
@@ -378,9 +380,10 @@ img{
 .blog-box-text{
   padding-top: 15px;
   padding-left: 15px;
+  padding-right: 15px;
   height: 127px;
-  /* max-width: 389px; */
   position: relative;
+  box-sizing: border-box;
 }
 
 .blog-text-ttl{
@@ -443,7 +446,7 @@ img{
 }
 
 .work-list-box-text{
-  padding: 20px 0 42px 18px ;
+  padding: 20px 16px 42px 18px ;
 }
 
 
@@ -548,6 +551,7 @@ label{
   border-radius: 3px;
   border: none;
   padding-left: 10px;
+  font-weight: bold;
 }
 
 textarea{
