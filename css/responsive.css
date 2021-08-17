@@ -129,9 +129,19 @@
      display: block;
      transform:translateY(0%);
    }
-   .blog-text-ttl{
+
+   .blog-list{
+     flex-direction: column;
+     max-width: 782px;
+   }
+
+   .blog-box{
+     margin-bottom: 30px;
+   }
+
+   /* .blog-text-ttl{
     font-size: 1.3rem;
-  }
+  } */
 
   .blog-box{
     width: 100%;
@@ -140,6 +150,9 @@
   .blog-box-text{
     width: 100%;
   }
+
+
+
 }
 
 /* 600 */
